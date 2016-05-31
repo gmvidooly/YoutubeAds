@@ -22,7 +22,7 @@ app.get('/v1/channels_list')(data.get_channels)
 
 
 
-if __name__ == '__main__':
-    bottle.run(app=app,
-               host='0.0.0.0',
-               port=8000)
+#if __name__ == '__main__':
+#    bottle.run(app=app,
+#               host='0.0.0.0',
+#               port=8000)

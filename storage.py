@@ -8,7 +8,7 @@ class DataServerSql(object):
         self.host = os.environ.get("DB_HOST", "vidooly-webserver-oregon-snap.cvqiaycslvse.ap-southeast-1.rds.amazonaws.com")
 
     def connect(self):
-        db = MySQLdb.connect("vidooly-webserver-oregon-snap.cvqiaycslvse.ap-southeast-1.rds.amazonaws.com","user","password","db" )
+        db = MySQLdb.connect("vidooly-webserver-oregon-snap.cvqiaycslvse.ap-southeast-1.rds.amazonaws.com","tred","7+cCG0","vidooly_v1" )
         cursor = db.cursor()
         return db, cursor
 
